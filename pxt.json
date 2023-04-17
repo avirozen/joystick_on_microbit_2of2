@@ -1,0 +1,31 @@
+{
+    "name": "joystick_on_microbit_2of2",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "maqueen": "github:jhlucky/maqueen#04e836719d009a1e8fe2cb03b324f0b70ee490be",
+        "microphone": "*",
+        "Tinybit": "github:YahboomTechnology/Tiny-bitLib#V2.0.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v2.0.18",
+        "tag": "v2.0.18",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/d18a5640c3e8676a71291980c07bbf67bc64c2a9",
+        "target": "5.0.12",
+        "pxt": "5.15.20",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
